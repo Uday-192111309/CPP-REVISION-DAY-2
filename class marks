@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,d ,e,tot;
+	float avg;
+	cout<<" enter the subject 1 marks :";
+	cin>> a;
+	cout<<" enter the subject 2 marks :";
+	cin>>b;
+	cout<<" enter the subject 3 marks :";
+	cin>>c;
+	cout<<" enter the subject 4 marks :";
+	cin>>d;
+	cout<<" enter the subject 5 marks :";
+	cin>>e;
+	tot=a+b+c+d+e;
+	cout<<" \n the total marks "<<tot;
+	avg = ((a+b+c+d+e)/5);
+	cout<<" \n the avg marks :"<<avg;
+	if(avg>75)
+	  cout<<" a grade ";
+	else if (avg>=60 && avg <=75)
+	  cout<<" b grade ";
+	else if ( avg>=50 && avg <=59)
+	  cout<<" c grade ";
+	else if(avg>=37 && avg <=49)
+	  cout<<" d grade ";
+	else if( avg <37)
+	  cout<<" f grade ";
+	  
+	  return 0;
+	  
+	
+}
