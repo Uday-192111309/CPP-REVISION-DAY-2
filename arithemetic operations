@@ -1,0 +1,35 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int a,b ,ch;
+	cout<<" enter the first number :";
+	cin>>a;
+	cout<<" enter the second number : ";
+	cin>>b;
+	cout<<" enter the choice : ";
+	cin>>ch;
+	switch (ch)
+	case 1:	
+	{
+	    cout<<" the addition is : "<<a+b;
+	    break;
+	    
+	case 2:
+		cout<<" the substraction is :"<<a-b;
+        break;
+        
+	case 3:
+		cout<<" the multiplication is :"<<a*b;
+	    break;
+	    
+	case 4:
+		cout<<" the division is :"<<a/b;
+	    break;
+	    
+	if(ch>4)
+		cout<<" enter the valid range ";
+    }
+	return 0;	
+}
